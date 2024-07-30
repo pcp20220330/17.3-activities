@@ -1,0 +1,49 @@
+body {
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #ddd;
+    border-bottom: 1px solid black;
+}
+
+.nav-item {
+    display: inline-block;
+    padding:10px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+.pet-info {
+    width: 30%;
+    background-color: #eee;
+    height: 500px;
+    float: left;
+}
+
+.pet-details {
+    width: 70%;
+    background-color: #ddd;
+    height: 500px;
+    float: right;
+}
+
+.pet-name {
+    text-align: center;
+}
+
+.pet-name img {
+    width: 75%;
+}
+
+.pet-stats ul li {
+    list-style-type:square;
+}
+
+.pet-details img {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
